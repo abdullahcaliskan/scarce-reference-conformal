@@ -1,0 +1,129 @@
+comparison,metric,scope,n_units,n_devices,mean_diff,ci,frac_positive
+P1: RC-RW(3) - RW(3),coverage,ALL,91,38,0.0095,"(np.float64(0.005), np.float64(0.0137))",0.67
+P1: RC-RW(3) - RW(3),coverage,QUANT,83,34,0.0099,"(np.float64(0.005), np.float64(0.0145))",0.699
+P1: RC-RW(3) - RW(3),coverage,CAPTOR,6,3,0.0081,"(np.float64(-0.0053), np.float64(0.0283))",0.5
+P1: RC-RW(3) - RW(3),coverage,QM,2,1,-0.003,"(nan, nan)",0.0
+P1: RC-RW(3) - RW(3),worst_month,ALL,91,38,0.0043,"(np.float64(-0.0119), np.float64(0.0211))",0.516
+P1: RC-RW(3) - RW(3),worst_month,QUANT,83,34,0.0019,"(np.float64(-0.0151), np.float64(0.0199))",0.494
+P1: RC-RW(3) - RW(3),worst_month,CAPTOR,6,3,0.0255,"(np.float64(-0.0105), np.float64(0.0936))",0.667
+P1: RC-RW(3) - RW(3),worst_month,QM,2,1,0.0417,"(nan, nan)",1.0
+P1: RC-RW(3) - RW(3),width,ALL,91,38,-1.9398,"(np.float64(-2.9008), np.float64(-1.0781))",0.275
+P1: RC-RW(3) - RW(3),width,QUANT,83,34,-1.6252,"(np.float64(-2.614), np.float64(-0.77))",0.289
+P1: RC-RW(3) - RW(3),width,CAPTOR,6,3,-5.3951,"(np.float64(-10.4645), np.float64(-2.7345))",0.167
+P1: RC-RW(3) - RW(3),width,QM,2,1,-4.6311,"(nan, nan)",0.0
+P1: RC-RW(3) - RW(3),winkler,ALL,91,38,-2.4336,"(np.float64(-3.9356), np.float64(-1.1772))",0.286
+P1: RC-RW(3) - RW(3),winkler,QUANT,83,34,-2.0867,"(np.float64(-3.5592), np.float64(-0.8241))",0.289
+P1: RC-RW(3) - RW(3),winkler,CAPTOR,6,3,-6.1928,"(np.float64(-14.3038), np.float64(-1.0661))",0.333
+P1: RC-RW(3) - RW(3),winkler,QM,2,1,-5.5521,"(nan, nan)",0.0
+P2: RC-RW(3) - RW(7),coverage,ALL,91,38,0.0105,"(np.float64(0.0072), np.float64(0.0139))",0.758
+P2: RC-RW(3) - RW(7),coverage,QUANT,83,34,0.0108,"(np.float64(0.0073), np.float64(0.0144))",0.783
+P2: RC-RW(3) - RW(7),coverage,CAPTOR,6,3,0.0078,"(np.float64(-0.01), np.float64(0.0325))",0.5
+P2: RC-RW(3) - RW(7),coverage,QM,2,1,0.0037,"(nan, nan)",0.5
+P2: RC-RW(3) - RW(7),worst_month,ALL,91,38,-0.0087,"(np.float64(-0.0215), np.float64(0.0051))",0.407
+P2: RC-RW(3) - RW(7),worst_month,QUANT,83,34,-0.0109,"(np.float64(-0.0243), np.float64(0.0029))",0.386
+P2: RC-RW(3) - RW(7),worst_month,CAPTOR,6,3,0.0063,"(np.float64(-0.0532), np.float64(0.0925))",0.5
+P2: RC-RW(3) - RW(7),worst_month,QM,2,1,0.0376,"(nan, nan)",1.0
+P2: RC-RW(3) - RW(7),width,ALL,91,38,-1.7145,"(np.float64(-2.6457), np.float64(-0.771))",0.33
+P2: RC-RW(3) - RW(7),width,QUANT,83,34,-1.399,"(np.float64(-2.3574), np.float64(-0.5194))",0.361
+P2: RC-RW(3) - RW(7),width,CAPTOR,6,3,-5.2079,"(np.float64(-9.8705), np.float64(-2.3535))",0.0
+P2: RC-RW(3) - RW(7),width,QM,2,1,-4.3288,"(nan, nan)",0.0
+P2: RC-RW(3) - RW(7),winkler,ALL,91,38,-1.9931,"(np.float64(-3.4003), np.float64(-0.7609))",0.297
+P2: RC-RW(3) - RW(7),winkler,QUANT,83,34,-1.6171,"(np.float64(-3.0189), np.float64(-0.4156))",0.313
+P2: RC-RW(3) - RW(7),winkler,CAPTOR,6,3,-5.8292,"(np.float64(-14.8297), np.float64(-0.7431))",0.167
+P2: RC-RW(3) - RW(7),winkler,QM,2,1,-6.0893,"(nan, nan)",0.0
+RC-RW(3) - RW(30),coverage,ALL,91,38,-0.0057,"(np.float64(-0.0091), np.float64(-0.002))",0.385
+RC-RW(3) - RW(30),coverage,QUANT,83,34,-0.0052,"(np.float64(-0.009), np.float64(-0.0013))",0.386
+RC-RW(3) - RW(30),coverage,CAPTOR,6,3,-0.0109,"(np.float64(-0.0201), np.float64(0.0068))",0.333
+RC-RW(3) - RW(30),coverage,QM,2,1,-0.0097,"(nan, nan)",0.5
+RC-RW(3) - RW(30),worst_month,ALL,91,38,-0.1381,"(np.float64(-0.1572), np.float64(-0.1194))",0.022
+RC-RW(3) - RW(30),worst_month,QUANT,83,34,-0.1405,"(np.float64(-0.1595), np.float64(-0.1208))",0.012
+RC-RW(3) - RW(30),worst_month,CAPTOR,6,3,-0.1453,"(np.float64(-0.1757), np.float64(-0.1145))",0.0
+RC-RW(3) - RW(30),worst_month,QM,2,1,-0.0155,"(nan, nan)",0.5
+RC-RW(3) - RW(30),width,ALL,91,38,-1.811,"(np.float64(-2.8917), np.float64(-0.8173))",0.341
+RC-RW(3) - RW(30),width,QUANT,83,34,-1.4864,"(np.float64(-2.6184), np.float64(-0.5211))",0.373
+RC-RW(3) - RW(30),width,CAPTOR,6,3,-5.2668,"(np.float64(-7.8247), np.float64(-2.347))",0.0
+RC-RW(3) - RW(30),width,QM,2,1,-4.9145,"(nan, nan)",0.0
+RC-RW(3) - RW(30),winkler,ALL,91,38,-0.1841,"(np.float64(-1.3983), np.float64(0.9625))",0.593
+RC-RW(3) - RW(30),winkler,QUANT,83,34,0.1107,"(np.float64(-1.0859), np.float64(1.2037))",0.614
+RC-RW(3) - RW(30),winkler,CAPTOR,6,3,-2.6883,"(np.float64(-9.9532), np.float64(1.1012))",0.5
+RC-RW(3) - RW(30),winkler,QM,2,1,-4.9028,"(nan, nan)",0.0
+RC-RW(3) - STATIC,coverage,ALL,91,38,0.1052,"(np.float64(0.0657), np.float64(0.1459))",0.703
+RC-RW(3) - STATIC,coverage,QUANT,83,34,0.0984,"(np.float64(0.0525), np.float64(0.1405))",0.675
+RC-RW(3) - STATIC,coverage,CAPTOR,6,3,0.2059,"(np.float64(0.122), np.float64(0.3243))",1.0
+RC-RW(3) - STATIC,coverage,QM,2,1,0.0859,"(nan, nan)",1.0
+RC-RW(3) - STATIC,worst_month,ALL,91,38,0.1305,"(np.float64(0.0733), np.float64(0.1832))",0.648
+RC-RW(3) - STATIC,worst_month,QUANT,83,34,0.1155,"(np.float64(0.0552), np.float64(0.1718))",0.627
+RC-RW(3) - STATIC,worst_month,CAPTOR,6,3,0.3328,"(np.float64(0.2324), np.float64(0.4322))",0.833
+RC-RW(3) - STATIC,worst_month,QM,2,1,0.1468,"(nan, nan)",1.0
+RC-RW(3) - STATIC,width,ALL,91,38,2.2163,"(np.float64(0.9184), np.float64(3.5483))",0.736
+RC-RW(3) - STATIC,width,QUANT,83,34,1.8886,"(np.float64(0.5063), np.float64(3.2363))",0.723
+RC-RW(3) - STATIC,width,CAPTOR,6,3,7.3475,"(np.float64(5.2017), np.float64(9.5904))",1.0
+RC-RW(3) - STATIC,width,QM,2,1,0.4217,"(nan, nan)",0.5
+RC-RW(3) - STATIC,winkler,ALL,91,38,-9.7109,"(np.float64(-15.4861), np.float64(-4.8971))",0.374
+RC-RW(3) - STATIC,winkler,QUANT,83,34,-8.6711,"(np.float64(-14.9983), np.float64(-3.7854))",0.398
+RC-RW(3) - STATIC,winkler,CAPTOR,6,3,-24.7761,"(np.float64(-46.7949), np.float64(-10.6598))",0.167
+RC-RW(3) - STATIC,winkler,QM,2,1,-7.6658,"(nan, nan)",0.0
+RC-RWT(3) - RWT(3),coverage,ALL,91,38,0.0118,"(np.float64(0.0048), np.float64(0.0186))",0.626
+RC-RWT(3) - RWT(3),coverage,QUANT,83,34,0.0114,"(np.float64(0.0036), np.float64(0.0192))",0.614
+RC-RWT(3) - RWT(3),coverage,CAPTOR,6,3,0.0185,"(np.float64(0.0007), np.float64(0.0341))",0.667
+RC-RWT(3) - RWT(3),coverage,QM,2,1,0.0043,"(nan, nan)",1.0
+RC-RWT(3) - RWT(3),worst_month,ALL,91,38,-0.0131,"(np.float64(-0.0348), np.float64(0.0078))",0.462
+RC-RWT(3) - RWT(3),worst_month,QUANT,83,34,-0.0185,"(np.float64(-0.042), np.float64(0.0046))",0.446
+RC-RWT(3) - RWT(3),worst_month,CAPTOR,6,3,0.043,"(np.float64(-0.0088), np.float64(0.1008))",0.5
+RC-RWT(3) - RWT(3),worst_month,QM,2,1,0.0398,"(nan, nan)",1.0
+RC-RWT(3) - RWT(3),width,ALL,91,38,-1.6788,"(np.float64(-2.582), np.float64(-0.8069))",0.363
+RC-RWT(3) - RWT(3),width,QUANT,83,34,-1.4011,"(np.float64(-2.3197), np.float64(-0.5684))",0.386
+RC-RWT(3) - RWT(3),width,CAPTOR,6,3,-4.6364,"(np.float64(-10.202), np.float64(-0.918))",0.167
+RC-RWT(3) - RWT(3),width,QM,2,1,-4.3294,"(nan, nan)",0.0
+RC-RWT(3) - RWT(3),winkler,ALL,91,38,-2.4102,"(np.float64(-3.8481), np.float64(-1.0877))",0.341
+RC-RWT(3) - RWT(3),winkler,QUANT,83,34,-2.0039,"(np.float64(-3.4929), np.float64(-0.656))",0.349
+RC-RWT(3) - RWT(3),winkler,CAPTOR,6,3,-6.8006,"(np.float64(-14.9721), np.float64(-1.2038))",0.333
+RC-RWT(3) - RWT(3),winkler,QM,2,1,-6.0995,"(nan, nan)",0.0
+RC-RW: DIST(3) - CONSEC(3),coverage,ALL,91,38,0.0219,"(np.float64(0.0181), np.float64(0.0259))",0.945
+RC-RW: DIST(3) - CONSEC(3),coverage,QUANT,83,34,0.0218,"(np.float64(0.0176), np.float64(0.026))",0.94
+RC-RW: DIST(3) - CONSEC(3),coverage,CAPTOR,6,3,0.0241,"(np.float64(0.0199), np.float64(0.031))",1.0
+RC-RW: DIST(3) - CONSEC(3),coverage,QM,2,1,0.0193,"(nan, nan)",1.0
+RC-RW: DIST(3) - CONSEC(3),worst_month,ALL,91,38,0.0518,"(np.float64(0.0373), np.float64(0.0662))",0.857
+RC-RW: DIST(3) - CONSEC(3),worst_month,QUANT,83,34,0.0523,"(np.float64(0.0376), np.float64(0.0681))",0.867
+RC-RW: DIST(3) - CONSEC(3),worst_month,CAPTOR,6,3,0.0487,"(np.float64(-0.011), np.float64(0.0823))",0.667
+RC-RW: DIST(3) - CONSEC(3),worst_month,QM,2,1,0.04,"(nan, nan)",1.0
+RC-RW: DIST(3) - CONSEC(3),width,ALL,91,38,0.132,"(np.float64(-0.1016), np.float64(0.355))",0.571
+RC-RW: DIST(3) - CONSEC(3),width,QUANT,83,34,0.0838,"(np.float64(-0.1521), np.float64(0.33))",0.554
+RC-RW: DIST(3) - CONSEC(3),width,CAPTOR,6,3,0.7211,"(np.float64(0.1282), np.float64(1.2704))",0.833
+RC-RW: DIST(3) - CONSEC(3),width,QM,2,1,0.3655,"(nan, nan)",0.5
+RC-RW: DIST(3) - CONSEC(3),winkler,ALL,91,38,-1.387,"(np.float64(-1.7638), np.float64(-1.003))",0.077
+RC-RW: DIST(3) - CONSEC(3),winkler,QUANT,83,34,-1.3387,"(np.float64(-1.747), np.float64(-0.9466))",0.06
+RC-RW: DIST(3) - CONSEC(3),winkler,CAPTOR,6,3,-2.1829,"(np.float64(-2.4487), np.float64(-1.7275))",0.167
+RC-RW: DIST(3) - CONSEC(3),winkler,QM,2,1,-1.0035,"(nan, nan)",0.5
+RW: DIST(3) - CONSEC(3),coverage,ALL,91,38,0.0132,"(np.float64(0.0108), np.float64(0.0155))",0.879
+RW: DIST(3) - CONSEC(3),coverage,QUANT,83,34,0.0134,"(np.float64(0.0108), np.float64(0.0159))",0.88
+RW: DIST(3) - CONSEC(3),coverage,CAPTOR,6,3,0.0134,"(np.float64(0.0112), np.float64(0.016))",1.0
+RW: DIST(3) - CONSEC(3),coverage,QM,2,1,0.0006,"(nan, nan)",0.5
+RW: DIST(3) - CONSEC(3),worst_month,ALL,91,38,0.0359,"(np.float64(0.0276), np.float64(0.0441))",0.868
+RW: DIST(3) - CONSEC(3),worst_month,QUANT,83,34,0.0373,"(np.float64(0.0289), np.float64(0.0457))",0.88
+RW: DIST(3) - CONSEC(3),worst_month,CAPTOR,6,3,0.0331,"(np.float64(-0.0079), np.float64(0.0623))",0.833
+RW: DIST(3) - CONSEC(3),worst_month,QM,2,1,-0.0119,"(nan, nan)",0.5
+RW: DIST(3) - CONSEC(3),width,ALL,91,38,0.1173,"(np.float64(-0.0924), np.float64(0.3334))",0.571
+RW: DIST(3) - CONSEC(3),width,QUANT,83,34,0.0554,"(np.float64(-0.1834), np.float64(0.2926))",0.554
+RW: DIST(3) - CONSEC(3),width,CAPTOR,6,3,0.9722,"(np.float64(0.8954), np.float64(1.0759))",0.833
+RW: DIST(3) - CONSEC(3),width,QM,2,1,0.118,"(nan, nan)",0.5
+RW: DIST(3) - CONSEC(3),winkler,ALL,91,38,-0.7875,"(np.float64(-1.0013), np.float64(-0.5912))",0.077
+RW: DIST(3) - CONSEC(3),winkler,QUANT,83,34,-0.8026,"(np.float64(-1.0336), np.float64(-0.6114))",0.06
+RW: DIST(3) - CONSEC(3),winkler,CAPTOR,6,3,-0.9385,"(np.float64(-1.4122), np.float64(-0.4019))",0.0
+RW: DIST(3) - CONSEC(3),winkler,QM,2,1,0.2932,"(nan, nan)",1.0
+ORACLE - RC-RW(3),coverage,ALL,91,38,0.0025,"(np.float64(-0.0187), np.float64(0.0218))",0.582
+ORACLE - RC-RW(3),coverage,QUANT,83,34,0.0055,"(np.float64(-0.0177), np.float64(0.026))",0.602
+ORACLE - RC-RW(3),coverage,CAPTOR,6,3,-0.0424,"(np.float64(-0.0738), np.float64(-0.0143))",0.333
+ORACLE - RC-RW(3),coverage,QM,2,1,0.0112,"(nan, nan)",0.5
+ORACLE - RC-RW(3),worst_month,ALL,91,38,0.043,"(np.float64(0.0104), np.float64(0.0741))",0.681
+ORACLE - RC-RW(3),worst_month,QUANT,83,34,0.0457,"(np.float64(0.0105), np.float64(0.0784))",0.699
+ORACLE - RC-RW(3),worst_month,CAPTOR,6,3,-0.0026,"(np.float64(-0.0434), np.float64(0.0343))",0.5
+ORACLE - RC-RW(3),worst_month,QM,2,1,0.0684,"(nan, nan)",0.5
+ORACLE - RC-RW(3),width,ALL,91,38,-2.2163,"(np.float64(-3.4922), np.float64(-0.9242))",0.264
+ORACLE - RC-RW(3),width,QUANT,83,34,-1.8886,"(np.float64(-3.1932), np.float64(-0.5049))",0.277
+ORACLE - RC-RW(3),width,CAPTOR,6,3,-7.3475,"(np.float64(-9.5904), np.float64(-5.2017))",0.0
+ORACLE - RC-RW(3),width,QM,2,1,-0.4217,"(nan, nan)",0.5
+ORACLE - RC-RW(3),winkler,ALL,91,38,-2.2408,"(np.float64(-3.1126), np.float64(-0.7123))",0.066
+ORACLE - RC-RW(3),winkler,QUANT,83,34,-2.0919,"(np.float64(-3.045), np.float64(-0.614))",0.072
+ORACLE - RC-RW(3),winkler,CAPTOR,6,3,-4.233,"(np.float64(-4.8942), np.float64(-3.8526))",0.0
+ORACLE - RC-RW(3),winkler,QM,2,1,-2.4425,"(nan, nan)",0.0

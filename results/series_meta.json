@@ -1,0 +1,2635 @@
+[
+ {
+  "dataset": "QM",
+  "site": "London TH2",
+  "series": "QM__node_3",
+  "span_days": 420,
+  "hours_with_sensor": 8281,
+  "features": [
+   "f_no2_low_mgsv2_raw",
+   "f_co_low_mgsv2_raw",
+   "f_o3_low_mq131_voltage",
+   "f_T",
+   "f_RH",
+   "f_voc_low_sgp40_comp_raw",
+   "f_pm2_5_low_sps30_ug_m3",
+   "f_pm10_low_sps30_ug_m3",
+   "f_no2_mid_alphasense_op1_voltage",
+   "f_no2_mid_alphasense_op2_voltage",
+   "f_o3_mid_alphasense_op1_voltage",
+   "f_o3_mid_alphasense_op2_voltage"
+  ],
+  "targets": {
+   "y_NO2": 9826,
+   "y_PM25": 9476,
+   "y_NO2_alt": 7027
+  },
+  "density": 0.822,
+  "kept": true
+ },
+ {
+  "dataset": "QM",
+  "site": "London TH7",
+  "series": "QM__node_5",
+  "span_days": 420,
+  "hours_with_sensor": 8614,
+  "features": [
+   "f_no2_low_mgsv2_raw",
+   "f_co_low_mgsv2_raw",
+   "f_o3_low_mq131_voltage",
+   "f_T",
+   "f_RH",
+   "f_voc_low_sgp40_comp_raw",
+   "f_pm2_5_low_sps30_ug_m3",
+   "f_pm10_low_sps30_ug_m3",
+   "f_no2_mid_alphasense_op1_voltage",
+   "f_no2_mid_alphasense_op2_voltage",
+   "f_o3_mid_alphasense_op1_voltage",
+   "f_o3_mid_alphasense_op2_voltage"
+  ],
+  "targets": {
+   "y_NO2": 10076,
+   "y_PM25": 8793,
+   "y_NO2_alt": 7332
+  },
+  "density": 0.855,
+  "kept": true
+ },
+ {
+  "dataset": "CAPTOR",
+  "site": "Gracia-Sant Gervasi",
+  "series": "CAPTOR__P2103007",
+  "span_days": 580,
+  "hours_with_sensor": 12390,
+  "features": [
+   "f_we_no2",
+   "f_ae_no2",
+   "f_we_o3",
+   "f_ae_o3",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 11731,
+   "y_O3": 12135
+  },
+  "density": 0.89,
+  "kept": true
+ },
+ {
+  "dataset": "CAPTOR",
+  "site": "Palau Reial",
+  "series": "CAPTOR__P2103016",
+  "span_days": 649,
+  "hours_with_sensor": 13820,
+  "features": [
+   "f_we_no2",
+   "f_ae_no2",
+   "f_we_o3",
+   "f_ae_o3",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 13516,
+   "y_O3": 13601
+  },
+  "density": 0.887,
+  "kept": true
+ },
+ {
+  "dataset": "CAPTOR",
+  "site": "Eixample",
+  "series": "CAPTOR__P2103019",
+  "span_days": 659,
+  "hours_with_sensor": 13410,
+  "features": [
+   "f_we_no2",
+   "f_ae_no2",
+   "f_we_o3",
+   "f_ae_o3",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 12707,
+   "y_O3": 13076
+  },
+  "density": 0.848,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM388",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM388__Manchester",
+  "span_days": 1050,
+  "hours_with_sensor": 24990,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 24881,
+   "y_O3": 24816,
+   "y_PM25": 22882,
+   "y_NO2_alt": 6549,
+   "y_O3_alt": 4270
+  },
+  "density": 0.992,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM389",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM389__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 4836,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 4836,
+   "y_O3": 4792,
+   "y_PM25": 4671,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.191,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "AQM389",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM389__London",
+  "span_days": 844,
+  "hours_with_sensor": 20157,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 19244,
+   "y_O3": 19309,
+   "y_PM25": 19824
+  },
+  "density": 0.995,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM390",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM390__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 24185,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 24078,
+   "y_O3": 24012,
+   "y_PM25": 22066,
+   "y_NO2_alt": 5607,
+   "y_O3_alt": 3340
+  },
+  "density": 0.954,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM391",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM391__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 5027,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 5026,
+   "y_O3": 4983,
+   "y_PM25": 4850,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.198,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "AQM391",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM391__York",
+  "span_days": 829,
+  "hours_with_sensor": 19812,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 19518,
+   "y_O3": 18544,
+   "y_PM25": 18844
+  },
+  "density": 0.996,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY872",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-02-15"
+  ],
+  "series": "QUANT__AQY872__Manchester__h1",
+  "span_days": 727,
+  "hours_with_sensor": 15858,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 15755,
+   "y_O3": 15773,
+   "y_PM25": 14582,
+   "y_NO2_alt": 6389,
+   "y_O3_alt": 3674
+  },
+  "density": 0.909,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY872",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-02-15"
+  ],
+  "series": "QUANT__AQY872__Manchester__h2",
+  "span_days": 253,
+  "hours_with_sensor": 5010,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 5006,
+   "y_O3": 4923,
+   "y_PM25": 4669,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.825,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY873",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-02-15"
+  ],
+  "series": "QUANT__AQY873__Manchester__h1",
+  "span_days": 761,
+  "hours_with_sensor": 15751,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 15648,
+   "y_O3": 15665,
+   "y_PM25": 14508,
+   "y_NO2_alt": 5942,
+   "y_O3_alt": 3755
+  },
+  "density": 0.862,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY873",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-02-15"
+  ],
+  "series": "QUANT__AQY873__Manchester__h2",
+  "span_days": 250,
+  "hours_with_sensor": 4864,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 4860,
+   "y_O3": 4777,
+   "y_PM25": 4522,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.811,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY874",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-07-08"
+  ],
+  "series": "QUANT__AQY874__Manchester__h1",
+  "span_days": 85,
+  "hours_with_sensor": 2055,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 2055,
+   "y_O3": 2055,
+   "y_PM25": 1893,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 1.007,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY874",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-07-08"
+  ],
+  "series": "QUANT__AQY874__Manchester__h2",
+  "span_days": 115,
+  "hours_with_sensor": 2774,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 2774,
+   "y_O3": 2730,
+   "y_PM25": 2771,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 1.005,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "AQY874",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-03-16"
+  ],
+  "series": "QUANT__AQY874__London__h1",
+  "span_days": 715,
+  "hours_with_sensor": 15120,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 14289,
+   "y_O3": 14347,
+   "y_PM25": 14847
+  },
+  "density": 0.881,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "AQY874",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-03-16"
+  ],
+  "series": "QUANT__AQY874__London__h2",
+  "span_days": 109,
+  "hours_with_sensor": 2450,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 2419,
+   "y_O3": 2415,
+   "y_PM25": 2443
+  },
+  "density": 0.937,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY875",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-07-25"
+  ],
+  "series": "QUANT__AQY875__Manchester__h1",
+  "span_days": 93,
+  "hours_with_sensor": 2148,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 2147,
+   "y_O3": 2148,
+   "y_PM25": 1974,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.962,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQY875",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-07-25"
+  ],
+  "series": "QUANT__AQY875__Manchester__h2",
+  "span_days": 97,
+  "hours_with_sensor": 1934,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 1934,
+   "y_O3": 1890,
+   "y_PM25": 1934,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.831,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "AQY875",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2021-01-20"
+  ],
+  "series": "QUANT__AQY875__York__h1",
+  "span_days": 288,
+  "hours_with_sensor": 4143,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 4061,
+   "y_O3": 3961,
+   "y_PM25": 4036
+  },
+  "density": 0.599,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "AQY875",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2021-01-20"
+  ],
+  "series": "QUANT__AQY875__York__h2",
+  "span_days": 526,
+  "hours_with_sensor": 11442,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 11365,
+   "y_O3": 11442,
+   "y_PM25": 11048
+  },
+  "density": 0.906,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Ari063",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Ari063__Manchester",
+  "span_days": 1030,
+  "hours_with_sensor": 22054,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 21948,
+   "y_O3": 21926,
+   "y_PM25": 20027,
+   "y_NO2_alt": 6117,
+   "y_O3_alt": 3557
+  },
+  "density": 0.892,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Ari078",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Ari078__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 19372,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 19356,
+   "y_O3": 19280,
+   "y_PM25": 17737,
+   "y_NO2_alt": 6237,
+   "y_O3_alt": 4308
+  },
+  "density": 0.764,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Ari086",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Ari086__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 4614,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 4614,
+   "y_O3": 4570,
+   "y_PM25": 4448,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.182,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "Ari086",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Ari086__London",
+  "span_days": 844,
+  "hours_with_sensor": 19343,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 18430,
+   "y_O3": 18495,
+   "y_PM25": 19010
+  },
+  "density": 0.955,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Ari093",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Ari093__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 3646,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 3645,
+   "y_O3": 3602,
+   "y_PM25": 3544,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.144,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "Ari093",
+  "version": {
+   "NO2": "out-of-box(only)",
+   "O3": "out-of-box(only)",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box(only)",
+   "PM10": "out-of-box(only)",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Ari093__York",
+  "span_days": 829,
+  "hours_with_sensor": 19536,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 19246,
+   "y_O3": 18268,
+   "y_PM25": 18682
+  },
+  "density": 0.982,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA1",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA1__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 25098,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 24992,
+   "y_O3": 24927,
+   "y_PM25": 22967,
+   "y_NO2_alt": 6564,
+   "y_O3_alt": 4308
+  },
+  "density": 0.99,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA2",
+  "version": {
+   "PM2.5": "atmospheric",
+   "PM10": "atmospheric",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA2__Manchester",
+  "span_days": 85,
+  "hours_with_sensor": 1993,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 1993,
+   "y_O3": 1993,
+   "y_PM25": 1833,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.977,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "PA2",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA2__London",
+  "span_days": 711,
+  "hours_with_sensor": 16985,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 16103,
+   "y_O3": 16172,
+   "y_PM25": 16712
+  },
+  "density": 0.995,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA3",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA3__Manchester",
+  "span_days": 790,
+  "hours_with_sensor": 17856,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 17751,
+   "y_O3": 17769,
+   "y_PM25": 16514,
+   "y_NO2_alt": 6540,
+   "y_O3_alt": 4308
+  },
+  "density": 0.942,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA4",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA4__Manchester",
+  "span_days": 734,
+  "hours_with_sensor": 16847,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 16742,
+   "y_O3": 16760,
+   "y_PM25": 15485,
+   "y_NO2_alt": 6533,
+   "y_O3_alt": 4282
+  },
+  "density": 0.956,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Zep188",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Zep188__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 23191,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 23005,
+   "y_O3": 22939,
+   "y_PM25": 21188,
+   "y_NO2_alt": 5549,
+   "y_O3_alt": 3280
+  },
+  "density": 0.915,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Zep309",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Zep309__Manchester",
+  "span_days": 1056,
+  "hours_with_sensor": 4856,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 4793,
+   "y_O3": 4750,
+   "y_PM25": 4620,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.192,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "Zep309",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Zep309__York",
+  "span_days": 829,
+  "hours_with_sensor": 19027,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 18750,
+   "y_O3": 17759,
+   "y_PM25": 18121
+  },
+  "density": 0.956,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Zep311",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-07-11"
+  ],
+  "series": "QUANT__Zep311__Manchester__h1",
+  "span_days": 85,
+  "hours_with_sensor": 2062,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 2062,
+   "y_O3": 2062,
+   "y_PM25": 1900,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 1.011,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Zep311",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-07-11"
+  ],
+  "series": "QUANT__Zep311__Manchester__h2",
+  "span_days": 112,
+  "hours_with_sensor": 2409,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 2409,
+   "y_O3": 2365,
+   "y_PM25": 2409,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.896,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "Zep311",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2020-12-16"
+  ],
+  "series": "QUANT__Zep311__London__h1",
+  "span_days": 260,
+  "hours_with_sensor": 5924,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 5909,
+   "y_O3": 5707,
+   "y_PM25": 5922
+  },
+  "density": 0.949,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "Zep311",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2020-12-16"
+  ],
+  "series": "QUANT__Zep311__London__h2",
+  "span_days": 564,
+  "hours_with_sensor": 7478,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 6618,
+   "y_O3": 6885,
+   "y_PM25": 7209
+  },
+  "density": 0.552,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Zep344",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [
+   "2022-03-17"
+  ],
+  "series": "QUANT__Zep344__Manchester__h1",
+  "span_days": 827,
+  "hours_with_sensor": 17458,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 17277,
+   "y_O3": 17295,
+   "y_PM25": 15954,
+   "y_NO2_alt": 6559,
+   "y_O3_alt": 4308
+  },
+  "density": 0.88,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Zep344",
+  "version": {
+   "NO2": "out-of-box",
+   "O3": "out-of-box",
+   "NO": "out-of-box(only)",
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 2,
+  "head_changes": [
+   "2022-03-17"
+  ],
+  "series": "QUANT__Zep344__Manchester__h2",
+  "span_days": 228,
+  "hours_with_sensor": 4237,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 4233,
+   "y_O3": 4163,
+   "y_PM25": 3878,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.774,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA10",
+  "version": {
+   "PM2.5": "atmospheric",
+   "PM10": "atmospheric",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA10__Manchester",
+  "span_days": 42,
+  "hours_with_sensor": 1029,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 1029,
+   "y_O3": 1029,
+   "y_PM25": 991,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 1.021,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "PA10",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA10__York",
+  "span_days": 699,
+  "hours_with_sensor": 16035,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 15772,
+   "y_O3": 14767,
+   "y_PM25": 15244
+  },
+  "density": 0.956,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA5",
+  "version": {
+   "PM2.5": "atmospheric",
+   "PM10": "atmospheric",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA5__Manchester",
+  "span_days": 1013,
+  "hours_with_sensor": 3805,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 3805,
+   "y_O3": 3761,
+   "y_PM25": 3764,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.157,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "PA5",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA5__London",
+  "span_days": 844,
+  "hours_with_sensor": 20194,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 19281,
+   "y_O3": 19346,
+   "y_PM25": 19861
+  },
+  "density": 0.997,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA6",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA6__Manchester",
+  "span_days": 1013,
+  "hours_with_sensor": 24121,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 24015,
+   "y_O3": 23950,
+   "y_PM25": 22115,
+   "y_NO2_alt": 6564,
+   "y_O3_alt": 4308
+  },
+  "density": 0.992,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA7",
+  "version": {
+   "PM2.5": "atmospheric",
+   "PM10": "atmospheric",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA7__Manchester",
+  "span_days": 42,
+  "hours_with_sensor": 1029,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 1029,
+   "y_O3": 1029,
+   "y_PM25": 991,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 1.021,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "PA7",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA7__York",
+  "span_days": 516,
+  "hours_with_sensor": 12396,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 12166,
+   "y_O3": 11128,
+   "y_PM25": 11693
+  },
+  "density": 1.001,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA8",
+  "version": {
+   "PM2.5": "atmospheric",
+   "PM10": "atmospheric",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA8__Manchester",
+  "span_days": 1013,
+  "hours_with_sensor": 3802,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 3802,
+   "y_O3": 3758,
+   "y_PM25": 3761,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.156,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "York",
+  "instrument": "PA8",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA8__York",
+  "span_days": 829,
+  "hours_with_sensor": 19748,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 19454,
+   "y_O3": 18480,
+   "y_PM25": 18780
+  },
+  "density": 0.993,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "PA9",
+  "version": {
+   "PM2.5": "atmospheric",
+   "PM10": "atmospheric",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA9__Manchester",
+  "span_days": 1013,
+  "hours_with_sensor": 3804,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 3804,
+   "y_O3": 3760,
+   "y_PM25": 3763,
+   "y_NO2_alt": 0,
+   "y_O3_alt": 0
+  },
+  "density": 0.156,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "London",
+  "instrument": "PA9",
+  "version": {
+   "PM2.5": "indoor",
+   "PM10": "indoor",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__PA9__London",
+  "span_days": 844,
+  "hours_with_sensor": 20145,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 19232,
+   "y_O3": 19297,
+   "y_PM25": 19812
+  },
+  "density": 0.995,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AP1",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "O3": "out-of-box+cal1+cal2",
+   "NO": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal2"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AP1__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11959,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11942,
+   "y_O3": 11863,
+   "y_PM25": 11123,
+   "y_NO2_alt": 3211,
+   "y_O3_alt": 3735
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AP2",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "O3": "out-of-box+cal1+cal2",
+   "NO": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal2"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AP2__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11937,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11919,
+   "y_O3": 11840,
+   "y_PM25": 11100,
+   "y_NO2_alt": 3187,
+   "y_O3_alt": 3711
+  },
+  "density": 0.979,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AP3",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "O3": "out-of-box+cal1+cal2",
+   "NO": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal2"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AP3__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11937,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11919,
+   "y_O3": 11840,
+   "y_PM25": 11100,
+   "y_NO2_alt": 3187,
+   "y_O3_alt": 3711
+  },
+  "density": 0.979,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Mod1",
+  "version": {
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Mod1__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11894,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 11883,
+   "y_O3": 11804,
+   "y_PM25": 11054,
+   "y_NO2_alt": 3164,
+   "y_O3_alt": 3688
+  },
+  "density": 0.976,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Mod2",
+  "version": {
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Mod2__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11965,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 11954,
+   "y_O3": 11875,
+   "y_PM25": 11125,
+   "y_NO2_alt": 3235,
+   "y_O3_alt": 3759
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Mod3",
+  "version": {
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Mod3__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11965,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 11954,
+   "y_O3": 11875,
+   "y_PM25": 11125,
+   "y_NO2_alt": 3235,
+   "y_O3_alt": 3759
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "NS1",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__NS1__Manchester",
+  "span_days": 506,
+  "hours_with_sensor": 12099,
+  "features": [
+   "f_NO2",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 12072,
+   "y_O3": 11993,
+   "y_PM25": 11241,
+   "y_NO2_alt": 3249,
+   "y_O3_alt": 3759
+  },
+  "density": 0.996,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "NS2",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__NS2__Manchester",
+  "span_days": 506,
+  "hours_with_sensor": 12093,
+  "features": [
+   "f_NO2",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 12066,
+   "y_O3": 11987,
+   "y_PM25": 11235,
+   "y_NO2_alt": 3249,
+   "y_O3_alt": 3759
+  },
+  "density": 0.996,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "NS3",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__NS3__Manchester",
+  "span_days": 506,
+  "hours_with_sensor": 12058,
+  "features": [
+   "f_NO2",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 12031,
+   "y_O3": 11952,
+   "y_PM25": 11200,
+   "y_NO2_alt": 3237,
+   "y_O3_alt": 3759
+  },
+  "density": 0.993,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Poll1",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "NO": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Poll1__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 9499,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 9484,
+   "y_O3": 9405,
+   "y_PM25": 9397,
+   "y_NO2_alt": 2922,
+   "y_O3_alt": 3448
+  },
+  "density": 0.779,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Poll2",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "NO": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Poll2__Manchester",
+  "span_days": 493,
+  "hours_with_sensor": 11245,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 11545,
+   "y_O3": 11466,
+   "y_PM25": 10764,
+   "y_NO2_alt": 2883,
+   "y_O3_alt": 3410
+  },
+  "density": 0.95,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Prax1",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "NO": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal1"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Prax1__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11734,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11720,
+   "y_O3": 11641,
+   "y_PM25": 10892,
+   "y_NO2_alt": 3234,
+   "y_O3_alt": 3759
+  },
+  "density": 0.962,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Prax2",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "NO": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal1"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Prax2__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11958,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11944,
+   "y_O3": 11865,
+   "y_PM25": 11114,
+   "y_NO2_alt": 3238,
+   "y_O3_alt": 3759
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "SA1",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__SA1__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11647,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10"
+  ],
+  "targets": {
+   "y_NO2": 11637,
+   "y_O3": 11558,
+   "y_PM25": 10812,
+   "y_NO2_alt": 3081,
+   "y_O3_alt": 3602
+  },
+  "density": 0.955,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "SA2",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__SA2__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11726,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10"
+  ],
+  "targets": {
+   "y_NO2": 11712,
+   "y_O3": 11633,
+   "y_PM25": 10957,
+   "y_NO2_alt": 3196,
+   "y_O3_alt": 3723
+  },
+  "density": 0.962,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "SA3",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__SA3__Manchester",
+  "span_days": 508,
+  "hours_with_sensor": 11566,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10"
+  ],
+  "targets": {
+   "y_NO2": 11557,
+   "y_O3": 11478,
+   "y_PM25": 10736,
+   "y_NO2_alt": 3067,
+   "y_O3_alt": 3604
+  },
+  "density": 0.949,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM1",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "O3": "out-of-box+cal1+cal2",
+   "NO": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal1+cal2"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM1__Manchester",
+  "span_days": 501,
+  "hours_with_sensor": 11799,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11789,
+   "y_O3": 11710,
+   "y_PM25": 10986,
+   "y_NO2_alt": 3067,
+   "y_O3_alt": 3686
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM2",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "O3": "out-of-box+cal1+cal2",
+   "NO": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal1+cal2"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM2__Manchester",
+  "span_days": 501,
+  "hours_with_sensor": 11799,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11789,
+   "y_O3": 11710,
+   "y_PM25": 10986,
+   "y_NO2_alt": 3067,
+   "y_O3_alt": 3686
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "AQM3",
+  "version": {
+   "NO2": "out-of-box+cal1+cal2",
+   "O3": "out-of-box+cal1+cal2",
+   "NO": "out-of-box+cal1+cal2",
+   "PM2.5": "out-of-box+cal1+cal2",
+   "PM10": "out-of-box+cal1+cal2",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box+cal1+cal2"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__AQM3__Manchester",
+  "span_days": 501,
+  "hours_with_sensor": 11799,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_NO",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11789,
+   "y_O3": 11710,
+   "y_PM25": 10986,
+   "y_NO2_alt": 3067,
+   "y_O3_alt": 3686
+  },
+  "density": 0.981,
+  "kept": true
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Atm1",
+  "version": {
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Atm1__Manchester",
+  "span_days": 53,
+  "hours_with_sensor": 1253,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 1237,
+   "y_O3": 1241,
+   "y_PM25": 1154,
+   "y_NO2_alt": 1206,
+   "y_O3_alt": 1231
+  },
+  "density": 0.985,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "Atm2",
+  "version": {
+   "PM2.5": "out-of-box",
+   "PM10": "out-of-box",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__Atm2__Manchester",
+  "span_days": 57,
+  "hours_with_sensor": 1227,
+  "features": [
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH"
+  ],
+  "targets": {
+   "y_NO2": 1212,
+   "y_O3": 1216,
+   "y_PM25": 1129,
+   "y_NO2_alt": 1181,
+   "y_O3_alt": 1206
+  },
+  "density": 0.897,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "IMB1",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__IMB1__Manchester",
+  "span_days": 273,
+  "hours_with_sensor": 6283,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 6273,
+   "y_O3": 6277,
+   "y_PM25": 5827,
+   "y_NO2_alt": 3049,
+   "y_O3_alt": 3668
+  },
+  "density": 0.959,
+  "kept": false
+ },
+ {
+  "dataset": "QUANT",
+  "site": "Manchester",
+  "instrument": "IMB2",
+  "version": {
+   "NO2": "out-of-box+cal1",
+   "O3": "out-of-box+cal1",
+   "PM2.5": "out-of-box+cal1",
+   "PM10": "out-of-box+cal1",
+   "Temperature": "out-of-box",
+   "RelHumidity": "out-of-box",
+   "Pressure": "out-of-box"
+  },
+  "head_segment": 1,
+  "head_changes": [],
+  "series": "QUANT__IMB2__Manchester",
+  "span_days": 502,
+  "hours_with_sensor": 11271,
+  "features": [
+   "f_NO2",
+   "f_O3",
+   "f_PM25",
+   "f_PM10",
+   "f_T",
+   "f_RH",
+   "f_P"
+  ],
+  "targets": {
+   "y_NO2": 11257,
+   "y_O3": 11178,
+   "y_PM25": 10465,
+   "y_NO2_alt": 3089,
+   "y_O3_alt": 3536
+  },
+  "density": 0.936,
+  "kept": true
+ }
+]

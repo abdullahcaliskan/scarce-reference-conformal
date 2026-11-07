@@ -1,0 +1,81 @@
+comparison,metric,scope,n_units,n_devices,mean_diff,ci,frac_positive
+K1: KC - RC-RW (DIST3),coverage,ALL,91,38,-0.02,"(np.float64(-0.0262), np.float64(-0.0139))",0.165
+K1: KC - RC-RW (DIST3),coverage,QUANT,83,34,-0.0206,"(np.float64(-0.0275), np.float64(-0.0137))",0.169
+K1: KC - RC-RW (DIST3),coverage,CAPTOR,6,3,-0.0068,"(np.float64(-0.0093), np.float64(-0.0044))",0.167
+K1: KC - RC-RW (DIST3),coverage,QM,2,1,-0.0357,"(nan, nan)",0.0
+K1: KC - RC-RW (DIST3),worst_month,ALL,91,38,-0.0433,"(np.float64(-0.0611), np.float64(-0.0271))",0.319
+K1: KC - RC-RW (DIST3),worst_month,QUANT,83,34,-0.0463,"(np.float64(-0.0645), np.float64(-0.0292))",0.301
+K1: KC - RC-RW (DIST3),worst_month,CAPTOR,6,3,0.0077,"(np.float64(-0.0057), np.float64(0.0344))",0.667
+K1: KC - RC-RW (DIST3),worst_month,QM,2,1,-0.0724,"(nan, nan)",0.0
+K1: KC - RC-RW (DIST3),width,ALL,91,38,-0.2765,"(np.float64(-0.5211), np.float64(0.0383))",0.308
+K1: KC - RC-RW (DIST3),width,QUANT,83,34,-0.3073,"(np.float64(-0.5785), np.float64(0.0206))",0.301
+K1: KC - RC-RW (DIST3),width,CAPTOR,6,3,-0.2688,"(np.float64(-0.5705), np.float64(0.1558))",0.333
+K1: KC - RC-RW (DIST3),width,QM,2,1,0.975,"(nan, nan)",0.5
+K1: KC - RC-RW (DIST3),winkler,ALL,91,38,0.5723,"(np.float64(0.2556), np.float64(0.9666))",0.681
+K1: KC - RC-RW (DIST3),winkler,QUANT,83,34,0.4915,"(np.float64(0.1566), np.float64(0.8549))",0.675
+K1: KC - RC-RW (DIST3),winkler,CAPTOR,6,3,0.5081,"(np.float64(-0.0142), np.float64(0.8579))",0.667
+K1: KC - RC-RW (DIST3),winkler,QM,2,1,4.1203,"(nan, nan)",1.0
+K2: KC - RC-RW (CONSEC3),coverage,ALL,91,38,0.0248,"(np.float64(0.017), np.float64(0.033))",0.802
+K2: KC - RC-RW (CONSEC3),coverage,QUANT,83,34,0.0249,"(np.float64(0.0169), np.float64(0.034))",0.795
+K2: KC - RC-RW (CONSEC3),coverage,CAPTOR,6,3,0.0109,"(np.float64(0.0045), np.float64(0.0142))",0.833
+K2: KC - RC-RW (CONSEC3),coverage,QM,2,1,0.0645,"(nan, nan)",1.0
+K2: KC - RC-RW (CONSEC3),worst_month,ALL,91,38,0.0573,"(np.float64(0.0395), np.float64(0.0768))",0.791
+K2: KC - RC-RW (CONSEC3),worst_month,QUANT,83,34,0.0587,"(np.float64(0.0393), np.float64(0.0815))",0.795
+K2: KC - RC-RW (CONSEC3),worst_month,CAPTOR,6,3,0.0224,"(np.float64(-0.0249), np.float64(0.0676))",0.667
+K2: KC - RC-RW (CONSEC3),worst_month,QM,2,1,0.1066,"(nan, nan)",1.0
+K2: KC - RC-RW (CONSEC3),width,ALL,91,38,2.2507,"(np.float64(1.262), np.float64(3.2835))",0.67
+K2: KC - RC-RW (CONSEC3),width,QUANT,83,34,2.0432,"(np.float64(1.1156), np.float64(3.0812))",0.651
+K2: KC - RC-RW (CONSEC3),width,CAPTOR,6,3,1.5139,"(np.float64(1.0248), np.float64(2.4551))",0.833
+K2: KC - RC-RW (CONSEC3),width,QM,2,1,13.0718,"(nan, nan)",1.0
+K2: KC - RC-RW (CONSEC3),winkler,ALL,91,38,0.6568,"(np.float64(0.0414), np.float64(1.4227))",0.527
+K2: KC - RC-RW (CONSEC3),winkler,QUANT,83,34,0.4924,"(np.float64(-0.0729), np.float64(1.112))",0.506
+K2: KC - RC-RW (CONSEC3),winkler,CAPTOR,6,3,0.0529,"(np.float64(-0.9848), np.float64(0.7466))",0.667
+K2: KC - RC-RW (CONSEC3),winkler,QM,2,1,9.2875,"(nan, nan)",1.0
+Ablation: KC-noGrowth - RC-RW (DIST3),coverage,ALL,91,38,-0.0114,"(np.float64(-0.0142), np.float64(-0.0085))",0.121
+Ablation: KC-noGrowth - RC-RW (DIST3),coverage,QUANT,83,34,-0.0114,"(np.float64(-0.0146), np.float64(-0.0083))",0.12
+Ablation: KC-noGrowth - RC-RW (DIST3),coverage,CAPTOR,6,3,-0.0059,"(np.float64(-0.012), np.float64(-0.0024))",0.167
+Ablation: KC-noGrowth - RC-RW (DIST3),coverage,QM,2,1,-0.0271,"(nan, nan)",0.0
+Ablation: KC-noGrowth - RC-RW (DIST3),worst_month,ALL,91,38,-0.0194,"(np.float64(-0.0295), np.float64(-0.0099))",0.374
+Ablation: KC-noGrowth - RC-RW (DIST3),worst_month,QUANT,83,34,-0.0197,"(np.float64(-0.0309), np.float64(-0.0086))",0.373
+Ablation: KC-noGrowth - RC-RW (DIST3),worst_month,CAPTOR,6,3,-0.0042,"(np.float64(-0.0217), np.float64(0.0111))",0.5
+Ablation: KC-noGrowth - RC-RW (DIST3),worst_month,QM,2,1,-0.0543,"(nan, nan)",0.0
+Ablation: KC-noGrowth - RC-RW (DIST3),width,ALL,91,38,0.1695,"(np.float64(-0.0914), np.float64(0.4494))",0.44
+Ablation: KC-noGrowth - RC-RW (DIST3),width,QUANT,83,34,0.1944,"(np.float64(-0.074), np.float64(0.4705))",0.446
+Ablation: KC-noGrowth - RC-RW (DIST3),width,CAPTOR,6,3,0.5462,"(np.float64(-0.4032), np.float64(1.7082))",0.5
+Ablation: KC-noGrowth - RC-RW (DIST3),width,QM,2,1,-1.992,"(nan, nan)",0.0
+Ablation: KC-noGrowth - RC-RW (DIST3),winkler,ALL,91,38,0.6627,"(np.float64(0.3319), np.float64(0.9959))",0.604
+Ablation: KC-noGrowth - RC-RW (DIST3),winkler,QUANT,83,34,0.6253,"(np.float64(0.2736), np.float64(0.9906))",0.602
+Ablation: KC-noGrowth - RC-RW (DIST3),winkler,CAPTOR,6,3,1.2583,"(np.float64(0.1553), np.float64(2.8704))",0.5
+Ablation: KC-noGrowth - RC-RW (DIST3),winkler,QM,2,1,0.4294,"(nan, nan)",1.0
+Ablation: KC - KC-noGrowth (DIST3),coverage,ALL,91,38,-0.0087,"(np.float64(-0.0151), np.float64(-0.0024))",0.385
+Ablation: KC - KC-noGrowth (DIST3),coverage,QUANT,83,34,-0.0092,"(np.float64(-0.0163), np.float64(-0.0022))",0.386
+Ablation: KC - KC-noGrowth (DIST3),coverage,CAPTOR,6,3,-0.0009,"(np.float64(-0.0059), np.float64(0.0051))",0.5
+Ablation: KC - KC-noGrowth (DIST3),coverage,QM,2,1,-0.0086,"(nan, nan)",0.0
+Ablation: KC - KC-noGrowth (DIST3),worst_month,ALL,91,38,-0.0239,"(np.float64(-0.0415), np.float64(-0.0072))",0.341
+Ablation: KC - KC-noGrowth (DIST3),worst_month,QUANT,83,34,-0.0267,"(np.float64(-0.0469), np.float64(-0.0091))",0.301
+Ablation: KC - KC-noGrowth (DIST3),worst_month,CAPTOR,6,3,0.0119,"(np.float64(-0.0036), np.float64(0.0233))",0.833
+Ablation: KC - KC-noGrowth (DIST3),worst_month,QM,2,1,-0.0181,"(nan, nan)",0.5
+Ablation: KC - KC-noGrowth (DIST3),width,ALL,91,38,-0.4461,"(np.float64(-0.8755), np.float64(0.0426))",0.385
+Ablation: KC - KC-noGrowth (DIST3),width,QUANT,83,34,-0.5016,"(np.float64(-0.9304), np.float64(-0.0086))",0.373
+Ablation: KC - KC-noGrowth (DIST3),width,CAPTOR,6,3,-0.815,"(np.float64(-2.2787), np.float64(0.0116))",0.333
+Ablation: KC - KC-noGrowth (DIST3),width,QM,2,1,2.967,"(nan, nan)",1.0
+Ablation: KC - KC-noGrowth (DIST3),winkler,ALL,91,38,-0.0904,"(np.float64(-0.5457), np.float64(0.4033))",0.505
+Ablation: KC - KC-noGrowth (DIST3),winkler,QUANT,83,34,-0.1338,"(np.float64(-0.5921), np.float64(0.3607))",0.494
+Ablation: KC - KC-noGrowth (DIST3),winkler,CAPTOR,6,3,-0.7502,"(np.float64(-2.8847), np.float64(0.5254))",0.5
+Ablation: KC - KC-noGrowth (DIST3),winkler,QM,2,1,3.6909,"(nan, nan)",1.0
+KC(DIST3) - RC-RW(30),coverage,ALL,91,38,-0.0127,"(np.float64(-0.02), np.float64(-0.0057))",0.363
+KC(DIST3) - RC-RW(30),coverage,QUANT,83,34,-0.0132,"(np.float64(-0.0209), np.float64(-0.0059))",0.361
+KC(DIST3) - RC-RW(30),coverage,CAPTOR,6,3,0.0003,"(np.float64(-0.0058), np.float64(0.0068))",0.5
+KC(DIST3) - RC-RW(30),coverage,QM,2,1,-0.0295,"(nan, nan)",0.0
+KC(DIST3) - RC-RW(30),worst_month,ALL,91,38,-0.1419,"(np.float64(-0.1595), np.float64(-0.1224))",0.055
+KC(DIST3) - RC-RW(30),worst_month,QUANT,83,34,-0.1461,"(np.float64(-0.1645), np.float64(-0.1271))",0.048
+KC(DIST3) - RC-RW(30),worst_month,CAPTOR,6,3,-0.1136,"(np.float64(-0.1873), np.float64(-0.0694))",0.0
+KC(DIST3) - RC-RW(30),worst_month,QM,2,1,-0.0492,"(nan, nan)",0.5
+KC(DIST3) - RC-RW(30),width,ALL,91,38,1.2974,"(np.float64(0.9419), np.float64(1.6512))",0.802
+KC(DIST3) - RC-RW(30),width,QUANT,83,34,1.1592,"(np.float64(0.8097), np.float64(1.4877))",0.795
+KC(DIST3) - RC-RW(30),width,CAPTOR,6,3,2.8793,"(np.float64(1.676), np.float64(4.4136))",1.0
+KC(DIST3) - RC-RW(30),width,QM,2,1,2.2855,"(nan, nan)",0.5
+KC(DIST3) - RC-RW(30),winkler,ALL,91,38,2.9154,"(np.float64(2.5019), np.float64(3.3321))",0.978
+KC(DIST3) - RC-RW(30),winkler,QUANT,83,34,2.7689,"(np.float64(2.3381), np.float64(3.2188))",0.976
+KC(DIST3) - RC-RW(30),winkler,CAPTOR,6,3,4.0711,"(np.float64(3.7771), np.float64(4.2866))",1.0
+KC(DIST3) - RC-RW(30),winkler,QM,2,1,5.5284,"(nan, nan)",1.0

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Code for: How to spend scarce reference days: drift correction and scheduling for conformal prediction intervals of low-cost air quality sensors"
+authors:
+  - family-names: Caliskan
+    given-names: Abdullah
+    affiliation: "Department of Computer Engineering, Kahramanmaras Sutcu Imam University, Turkiye"
+  - family-names: Parlak
+    given-names: Meltem
+    affiliation: "Department of Computer Engineering, Graduate School, Kahramanmaras Sutcu Imam University, Turkiye"
+license: MIT
+date-released: 2026-11-07
